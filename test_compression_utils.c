@@ -4,11 +4,6 @@
 #include <stdlib.h>
 #include "compression_utils/compression.h"
 
-// Function declarations
-int is_compressed(unsigned char* data_ptr, int data_size);
-int byte_compress(unsigned char* data_ptr, int data_size);
-int byte_decompress(unsigned char* data_ptr, int compressed_size, unsigned char* decompressed_data);
-
 // Helper function to print the array in a readable format
 void print_array(const unsigned char* array, int size, const char* description) {
     printf("%s: [", description);
