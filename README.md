@@ -4,7 +4,7 @@ I implemented `Run-Length Encoding (RLE)` for data compression using `C`, despit
 ## Cloning and Running the Code
 1. Clone the repository to your computer. Run the following command in your desired directory:
 ```
-https://github.com/joshuajipp/garmin_data_compression.git
+git clone https://github.com/joshuajipp/garmin_data_compression.git
 ```
 2. Change directory to the root of the project:
 ```
